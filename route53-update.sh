@@ -13,7 +13,7 @@ do
     if [[ $? -eq 0 ]]; then
         echo `date` "Updated $DOMAIN to $IP"
     else
-        echo `date` "Failed to update $HOSTNAME"
+        echo `date` "Failed to update $DOMAIN"
     fi
 
     echo `date` "Completed updating the DNS Zone"
